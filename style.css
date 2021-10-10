@@ -9,8 +9,8 @@ html,body
   align-content: center;
   margin:0;
   background: linear-gradient(
-      rgb(194, 190, 187), 
-      rgb(208, 149, 221)
+      rgb(253, 253, 253), 
+      rgb(44, 43, 44)
     ), url('');
 }
 
@@ -1087,91 +1087,7 @@ html,body
   font-family: "Open Sans","Helvetica","Arial",sans-serif;
   font-weight: bold;
 }
-/*
-.card
-{  
-  vertical-align: middle;
-  background-color: rgba(3, 9, 20, 0.938);
-  border-radius: 7px;
-  margin-left: auto;
-  margin-right: auto;
-  border-style: outset;
-  border-color: rgba(100, 250, 217, 0.281);
-  margin-top: 10px;
-  box-shadow: 10px 10px 2.5px rgba(0, 0, 0, 0.856);  
-}
 
-.card:hover
-{
-  background-color: rgb(25, 37, 58);
-  box-shadow: 1px 1px 2px rgba(162, 147, 250, 0.637), 0 0 25px rgb(192, 192, 245), 0 0 5px white;
-  transition: all 1s ease-in-out;
-  
-}
-
-.card-title
-{
-  color: rgba(255, 255, 255, 0.836);
-  font-family: 'Special Elite';
-  margin-top: 10px;
-  text-align: center;
-}
-
-.card-text
-{
-  color:rgb(243, 248, 244);
-  font-family: 'Cutive Mono';
-  font-size: 18px;
-}
-
-
-.card2
-{  
-  vertical-align: middle;
-  background-color: rgba(0, 32, 92, 0.938);
-  border-radius: 7px;
-  margin-left: auto;
-  margin-right: auto;
-  border-style: outset;
-  border-color: rgba(100, 250, 217, 0.281);
-  margin-top: 10px;
-  box-shadow: 10px 10px 2.5px rgba(0, 0, 0, 0.856);  
-}
-
-.card2:hover
-{
-  background-color: rgb(25, 37, 58);
-  box-shadow: 1px 1px 2px rgba(162, 147, 250, 0.637), 0 0 25px rgb(192, 192, 245), 0 0 5px white;
-  transition: all 1s ease-in-out;
-  
-}
-
-.card-title2
-{
-  color: rgba(255, 255, 255, 0.836);
-  font-family: 'Special Elite';
-  margin-top: 10px;
-  text-align: center;
-}
-
-.card-text2
-{
-  color:rgb(243, 248, 244);
-  font-family: 'Cutive Mono';
-  font-size: 18px;
-} */
-
-/********CONNECT *********************/
-/*#contact
-{
-  background-image: linear-gradient(to right,  #010a14,#02203c); 
-  clip-path: polygon(0 7%, 95% 0, 90% 95%, 0 80%);
-  padding-top: 20px;
-  color:#02203c;
-  font-family: monospace;
-  margin-left: auto;
-  margin-right: auto;
-} */
 
 /********TAGS/BUTTONS *********************/
 .btnBlack
@@ -1381,39 +1297,6 @@ html,body
   -webkit-box-shadow: 0 0 6px #ccc;
   box-shadow: 0 0 6px #ccc;
 
-}
-.btnResume
-{
-  background-color:  rgba(206, 248, 250, 0.733);
-  border-width: 1px;
-  color: rgb(2, 67, 68);
-  padding: 10px 5px;
-  padding-right: 15px;
-  padding-left: 15px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: .25px .25px;
-  cursor: pointer;
-  font-family: 'Special Elite';
-  border-radius: 2.5px;
-  box-shadow: 15px;
- 
-}
-.btnResume:hover
-{
-  text-decoration: none;
-  color:aqua;
-  font-size: 21px;
-}
-.btnSource:hover
-{
-  text-decoration: none;
-  color:white;
-  background-color: rgba(0, 255, 255, 0);
-  font-size: 14px;
-   text-transform: uppercase;
 }
 
 
