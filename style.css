@@ -38,9 +38,6 @@ html,body
   height: 450px;
 }
 
-@media screen and (max-width: 0px) {
-  #banner{ display: none; }
-}
 
 #chair{
   position: absolute;
@@ -933,4 +930,38 @@ html,body
 @-o-keyframes fly{
     0%{ transform: translateY(200px);}
   100%{ transform: translateY(-800px);}
+}
+
+#message{
+  display: none;
+}
+
+
+@media screen and (max-width: 375px) {
+
+    html,body
+  {
+    box-sizing: border-box;
+    transition: background-color 2s ease-in;
+    scroll-behavior: smooth;
+    align-content: center;
+    margin:0;
+    background: rgb(175, 172, 172);
+  }
+
+  #banner{
+    display: none;
+  }
+
+  #message{
+    display: contents;
+    width:300px;
+    height:300px;
+    padding: 20px;
+    background-color: rgb(255, 255, 255);
+    
+  }
+
+
+  
 }
