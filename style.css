@@ -944,9 +944,10 @@ html,body
     box-sizing: border-box;
     transition: background-color 2s ease-in;
     scroll-behavior: smooth;
-    align-content: center;
-    margin:0;
-    background: rgb(175, 172, 172);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgb(182, 182, 182);
   }
 
   #banner{
@@ -954,13 +955,24 @@ html,body
   }
 
   #message{
-    display: contents;
+    margin-top:50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width:300px;
     height:300px;
     padding: 20px;
+    transition: background-color 2s ease-in;
+    border-radius: 3px;
+    box-shadow: 0px 0px 30px#010e20;
+    color:rgb(43, 42, 42);
     background-color: rgb(255, 255, 255);
-    
+    font-family: poppins;
+    font-size: 20px;
+    text-align: center;
   }
+
+  
 
 
   
